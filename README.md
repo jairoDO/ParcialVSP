@@ -38,9 +38,9 @@ G) Salir
 -AE) Agregar Empleado, deberá solicitar nombre, apellido y si ya se encuentra registrado imprimir que ya está registrado, si es nuevo se debe crear un cliente nuevo, generando un número de cliente que debe ser único y hora de trabajos.
  
 
-CT) Crear un turno: nos deberá solicitar un número de cliente, un horario,  si no se encuentra, imprimir error y se debe crear un turno, asignar un empleado al azar que trabaje en ese horario, si no hay empleado disponible, informar con un mensaje los horarios disponibles
+CT) Crear un turno: nos deberá solicitar un número de cliente, un horario,  si no se encuentra, imprimir error y abortar la creacion. Asignar un empleado al azar que trabaje en ese horario, si no hay empleado disponible, informar con un mensaje los horarios disponibles
  
-CM) Crear mascota: deberá solicitar número de cliente, nombre, tipo de animal (anfibio,  terrícola o acuático), nombre, peso, cantidad de horas de ejercicios necesarias.
+CM) Crear mascota: deberá solicitar nombre, tipo de animal (anfibio,  terrícola o acuático), nombre, peso, cantidad de horas de ejercicios necesarias.
  
 AM) Asignar mascota: deberá solicitar número de cliente y número de mascota.
  
