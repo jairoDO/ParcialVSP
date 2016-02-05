@@ -5,10 +5,9 @@
  - los números son del 1 al 40
  ejemplo:
  lista = range(1,41)
-  shuffle(lista)
-  del lista[4]
-  obtener_el_que_falta(lista)
-  >>> 4
+ del lista[4]
+ obtener_el_que_falta(lista)
+ >>> 5
   
   3) Realizar un algoritmo todos_pares. que dado una lista de lista devuelve si todos los numeros son pares.
   4) Realizar un algoritmo que dado una lista de diccionarios con clave status su valor solo puede ser failed, passed, skipe. 
