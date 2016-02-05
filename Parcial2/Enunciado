@@ -1,0 +1,30 @@
+1) En el primer ejercicio se debe descarcar la carpeta ejercicio1, y hacer funcionar el script. luego responder porque no aduvo.
+2) Se debe realizar un algoritmo de orden linal llamado obtener_el_que_falta que dado una lista de número de longitud 40 con las siguientes especificaiones:
+ - La lista no tiene ningun número repetido.
+ - Puede venir desordenada la lista.
+ - los numeros son del 1 al 40
+ ejemplo:
+ lista = range(1,41)
+  shuffle(lista)
+  del lista[4]
+  obtener_el_que_falta(lista)
+  >>> 4
+  
+  3) Realizar un algoritmo todos_pares. que dado una lista de lista devuelve si todos los numeros son pares
+  4) Realizar un algoritmo que dado una lista de diccionarios con clave status su valor solo puede ser failed, passed, skipe. 
+  devuelva failed  , si almenos un status es failed, devuelva  passed si no hay ninguan status failed, y devuelva skipe si todos los status son skipe
+  
+  5) Realizar un algoritmo que dado un número entero, devuelvaun string en el siguiente formato. cambiar_formato(2) 2 cambiar_formato(2222) ->2,222
+  cambiar_formato(20020202) -> 20,020,202
+  
+  6) Escriba una funncion que dado la representacion de un directorio en diccionario y lista construca el arbal de directorio , donde un archivo es una string,
+  y un directorio es la clave de un diccionario. ejemplo:
+  
+  arbol_dictionario = {'user':['bash.txt', 'log.log', {'subcarpeta':['archivo.txt','archivo2.txt', {'subcarpeta3':[]}]}]}
+  representaria al siguiente directorio
+  user-> bash.txt  ->file
+      -> log.log ->file
+      -> subacarpeta-> archivo.txt ->file
+                    ->archivo2.txt ->file
+                    ->subcarpeta> ->carpeta vacia
+            
