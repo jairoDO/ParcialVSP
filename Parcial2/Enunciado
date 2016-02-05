@@ -1,5 +1,5 @@
 1) En el primer ejercicio se debe descarcar la carpeta ejercicio1, y hacer funcionar el script. luego responder porque no aduvo.
-2) Se debe realizar un algoritmo de orden linal llamado obtener_el_que_falta que dado una lista de número de longitud 40 con las siguientes especificaiones:
+2) Se debe realizar un algoritmo de orden lineal llamado obtener_el_que_falta que dado una lista de número de longitud 40 con las siguientes especificaiones:
  - La lista no tiene ningun número repetido.
  - Puede venir desordenada la lista.
  - los numeros son del 1 al 40
