@@ -17,7 +17,8 @@
   5) Realizar un algoritmo que dado un número entero, devuelvaun string en el siguiente formato. cambiar_formato(2) 2 cambiar_formato(2222) ->2,222
   cambiar_formato(20020202) -> 20,020,202
   
-  6) Escriba una funncion que dado la representacion de un directorio en diccionario y lista construca el arbal de directorio , donde un archivo es una string un directorio es la clave de un diccionario. ejemplo:
+  6) Escriba una función que dado la representacion de un directorio como diccionarios, lista y string. construya el arbol de directorio de su representación.
+  donde un string debera crear un file con el nomre del string, una clave de un diccionario debera convertirse en un directorio con el nombre de la clave. ejemplo:
   
   arbol_dictionario = {'user':['bash.txt', 'log.log', {'subcarpeta':['archivo.txt','archivo2.txt', {'subcarpeta3':[]}]}]}
   representaria al siguiente directorio
